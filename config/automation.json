@@ -1,0 +1,50 @@
+{
+  "Setup": {
+    "baseURL": "https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html",
+    "hubURL": "yet to develop",
+    "log_file": "/Users/vmata/Documents/New_Sess/vendor_portal/logs",
+    "selenium_grid": "False"
+  },
+  "Registration_Page": {
+    "Registration_Home_Page_xpath": "//h2[contains(text(),'Customer Registration')]",
+    "FirstName_xpath": "//input[@id='firstName']",
+    "LastName_xpath": "//input[@id='lastName']",
+    "Email_xpath": "//input[@id='email']",
+    "Password_xpath": "//input[@id='password']",
+    "Street_xpath": "//input[@name='street']",
+    "City_xpath": "//input[@name='city']",
+    "State_xpath": "//select[@id='inputState']",
+    "Zip_xpath": "//input[@name='zip']",
+    "Register_Button_xpath": "//button[@id='register-btn']",
+    "FirstName": "Vikas",
+    "LastName": "Ujjanimata",
+    "Email": "test@test.com",
+    "Password": "test",
+    "Street": "#805, Bhavisha Bentley Zuri, Kadaagraha Road, Sompura Gate, Sarjapura Road",
+    "City": "Bengaluru",
+    "State": "Florida",
+    "Zip": "562125",
+    "GoToFlightSearch": "//a[@id='go-to-flights-search']"
+  },
+  "Flight_Search": {
+    "RoundTrip_xpath": "//input[@id='twoway']",
+    "Passengers_xpath": "//select[@id='passengers']",
+    "DepartingFrom_xpath": "//select[@id='depart-from']",
+    "ArrivingIn_xpath": "//select[@id='arrive-in']",
+    "ServiceClass_Economy_xpath": "//input[@value='economy']",
+    "ServiceClass_First_xpath": "//input[@value='first']",
+    "ServiceClass_Business_xpath": "//input[@value='business']",
+    "SearchFlights_button_xpath": "//button[@id='search-flights']"
+  },
+  "Select_Flights": {
+    "SelectFlights_xpath": "//h2[contains(text(),'Select Flights')]",
+    "DepartureEmiratesBusiness": "//input[@id='dep-emirates-business']",
+    "ArrivalQatarBusiness": "//input[@id='arr-qatar-business']",
+    "ConfirmFlights": "//button[@id='confirm-flights']"
+  },
+  "Confirmation_Page": {
+    "ConfirmationPage_xpath" : "//div[contains(text(),'Flight Confirmation')]"
+  }
+
+
+}

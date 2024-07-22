@@ -1,0 +1,49 @@
+07/23/2024 04:56:55 AM - SeleniumDriver - INFO: Element found with locator: //h2[contains(text(),'Customer Registration')] and  locatorType: xpath
+07/23/2024 04:56:55 AM - SeleniumDriver - INFO: Element is displayed
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Screenshot saved to directory: /Users/vmata/Documents/New_Sess/vendor_portal/screenprints/screenprints23-07-2024_04-56-AM/Registration Home Page appears_23-07-2024_04-56-55_AM.png
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='firstName'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='firstName'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='lastName'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='lastName'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='email'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='email'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='password'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='password'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='street'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='street'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='city'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='city'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //input[@name='zip'] and  locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='zip'] locatorType: xpath
+07/23/2024 04:56:56 AM - SeleniumDriver - INFO: Element found with locator: //select[@id='inputState'] and  locatorType: xpath
+07/23/2024 04:56:57 AM - SeleniumDriver - INFO: Selected option 'Florida' from dropdown with locator: //select[@id='inputState']
+07/23/2024 04:56:57 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='register-btn'] and  locatorType: xpath
+07/23/2024 04:56:57 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='register-btn'] locatorType: xpath
+07/23/2024 04:56:58 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='go-to-flights-search'] and  locatorType: xpath
+07/23/2024 04:56:58 AM - SeleniumDriver - INFO: Element is displayed
+07/23/2024 04:56:58 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='go-to-flights-search'] and  locatorType: xpath
+07/23/2024 04:56:58 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='go-to-flights-search'] locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='twoway'] and  locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='twoway'] locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Element found with locator: //select[@id='passengers'] and  locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Selected option 'Two' from dropdown with locator: //select[@id='passengers']
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Element found with locator: //select[@id='depart-from'] and  locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Selected option 'London' from dropdown with locator: //select[@id='depart-from']
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Element found with locator: //select[@id='arrive-in'] and  locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Selected option 'Paris' from dropdown with locator: //select[@id='arrive-in']
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Element found with locator: //input[@value='business'] and  locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@value='business'] locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='search-flights'] and  locatorType: xpath
+07/23/2024 04:56:59 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='search-flights'] locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Element found with locator: //h2[contains(text(),'Select Flights')] and  locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Element is displayed
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='dep-emirates-business'] and  locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='dep-emirates-business'] locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='arr-qatar-business'] and  locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='arr-qatar-business'] locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='confirm-flights'] and  locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='confirm-flights'] locatorType: xpath
+07/23/2024 04:57:00 AM - SeleniumDriver - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+07/23/2024 04:57:01 AM - SeleniumDriver - INFO: Element appeared on the web page
+07/23/2024 04:57:01 AM - SeleniumDriver - INFO: Element found with locator: //div[contains(text(),'Flight Confirmation')] and  locatorType: xpath
+07/23/2024 04:57:01 AM - SeleniumDriver - INFO: Element is displayed
