@@ -1,9 +1,9 @@
 {
   "Setup": {
     "baseURL": "https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html",
-    "hubURL": "yet to develop",
+    "hubURL": "http://selenium-hub:4444/wd/hub",
     "log_file": "/Users/vmata/Documents/New_Sess/vendor_portal/logs",
-    "selenium_grid": "False"
+    "selenium_grid": "True"
   },
   "Registration_Page": {
     "Registration_Home_Page_xpath": "//h2[contains(text(),'Customer Registration')]",
@@ -43,8 +43,6 @@
     "ConfirmFlights": "//button[@id='confirm-flights']"
   },
   "Confirmation_Page": {
-    "ConfirmationPage_xpath" : "//div[contains(text(),'Flight Confirmation')]"
+    "ConfirmationPage_xpath": "//div[contains(text(),'Flight Confirmation')]"
   }
-
-
 }

@@ -1,4 +1,4 @@
-#!/Users/vmata/Documents/New_Sess/vendor_portal/vp_venv/bin/python3.12
+#!/Users/vmata/Documents/New_Sess/vendor_portal/vp_venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

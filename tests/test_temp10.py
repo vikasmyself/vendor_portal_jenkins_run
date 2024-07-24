@@ -14,12 +14,3 @@ class TestTempo(BaseTest):
         print(driver.title)  # Should print "Google" if headless is working
         driver.quit()
 
-
-lp = TestTempo()
-lp.test_temproary()
-
-
-
-
-
-

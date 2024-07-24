@@ -1,0 +1,52 @@
+version: '3'
+services:
+  selenium-hub:
+    image: selenium/hub:4.10.0
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+    #environment:
+    #  - GRID_MAX_SESSION=16
+    #  - GRID_BROWSER_TIMEOUT=0
+    #  - GRID_TIMEOUT=0
+
+  chrome:
+    image: selenium/node-chrome:4.10.0
+    #container_name: vendor_portal-chrome-1
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_OVERRIDE_MAX_SESSION=true
+      - SE_NODE_MAX_SESSIONS=4
+    #volumes:
+    #  - /dev/shm:/dev/shm
+
+  firefox:
+    image: selenium/node-firefox:4.10.0
+    #container_name: vendor_portal-firefox-1
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_OVERRIDE_MAX_SESSION=true
+      - SE_NODE_MAX_SESSIONS=4
+    #volumes:
+    #  - /dev/shm:/dev/shm
+
+  vendor_portal:
+    image: nanuvikas/vendor_portal
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+    volumes:
+      - /Users/vmata/Documents/New_Sess/vendor_portal/logs:/app/vol
+    entrypoint: [ "/usr/local/bin/wait-for-it.sh", "selenium-hub:4444" ]
+    command: [ "pytest", "-v", "-s", "--browser", "chrome" ]
+

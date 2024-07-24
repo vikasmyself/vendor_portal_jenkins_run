@@ -4,9 +4,10 @@ import logging
 
 def customLogger(logLevel=logging.DEBUG):
     # Ensure the logs directory exists
-    log_directory = "/Users/vmata/Documents/New_Sess/vendor_portal/logs"
-    #if not os.path.exists(log_directory):
-    #    os.makedirs(log_directory)
+    #log_directory = "/Users/vmata/Documents/New_Sess/vendor_portal/logs"
+    log_directory = "/app/vol"
+    if not os.path.exists(log_directory):
+        os.makedirs(log_directory)
 
     # Get the name of the calling class/method
     loggerName = inspect.stack()[1][3]

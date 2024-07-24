@@ -15,11 +15,5 @@ class TestTempo(BaseTest):
         driver.quit()
 
 
-lp = TestTempo()
-lp.test_temproary()
-
-
-
-
 
 
