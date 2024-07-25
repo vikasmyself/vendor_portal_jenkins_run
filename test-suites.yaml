@@ -1,0 +1,13 @@
+version: '3'
+services:
+  #cf3643c84222494bbf4b4e66db1bbe0c
+  vendor_portal:
+    image: nanuvikas/vendor_portal_jenkins
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+    volumes:
+      - /Users/vmata/Documents/New_Sess/vendor_portal_jenkins/logs:/app/vol
+    entrypoint: [ "/usr/local/bin/wait-for-it.sh", "selenium-hub:4444" ]
+    command: [ "pytest", "-v", "-s", "--browser", "chrome" ]
+

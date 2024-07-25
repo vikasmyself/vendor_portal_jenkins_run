@@ -1,0 +1,31 @@
+services:
+  # cf3643c84222494bbf4b4e66db1bbe0c
+
+  selenium-hub:
+    image: selenium/hub:4.10.0
+    container_name: selenium-hub
+#    ports:  Not required if you are running via jenkins, required only for UI
+#      - "4444:4444"
+    #environment:
+    #  - GRID_MAX_SESSION=16
+    #  - GRID_BROWSER_TIMEOUT=0
+    #  - GRID_TIMEOUT=0
+
+  chrome:
+    image: selenium/node-chrome:4.10.0
+    #container_name: vendor_portal-chrome-1
+    depends_on:
+      - selenium-hub
+    env_file: .env
+    #volumes:
+    #  - /dev/shm:/dev/shm
+
+  firefox:
+    image: selenium/node-firefox:4.10.0
+    #container_name: vendor_portal-firefox-1
+    depends_on:
+      - selenium-hub
+    env_file: .env
+    #volumes:
+    #  - /dev/shm:/dev/shm
+
