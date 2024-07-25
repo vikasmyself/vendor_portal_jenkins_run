@@ -1,0 +1,9 @@
+Started by user [8mha:////4MUZI0XZDfmPBWzombQzqMmBCzSwvsBe0kyLJ8+zFIG6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/jenkins_home/workspace/Docker Test
+[Docker Test] $ /bin/sh -xe /tmp/jenkins10858305363411534877.sh
++ export PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin
++ docker ps
+/tmp/jenkins10858305363411534877.sh: 3: docker: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

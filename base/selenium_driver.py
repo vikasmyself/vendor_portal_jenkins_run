@@ -427,3 +427,4 @@ class SeleniumDriver():
         except:
             self.log.error("Element :: '" + info + "' state could not be found")
         return enabled
+
