@@ -6,6 +6,11 @@ pipeline {
     }
 
     stages {
+//        stage('Build Image') {
+//             steps {
+//                 sh "docker build -t=nanuvikas/vendor_portal_jenkins ."
+//             }
+//         }
             stage('Run Tests'){
                 steps{
                     sh "docker-compose up"
@@ -17,5 +22,10 @@ pipeline {
                 }
             }
 
+//         stage('Push Image') {
+//             steps {
+//                 sh "docker push nanuvikas/vendor_portal_jenkins"
+//             }
+//         }
     }
 }

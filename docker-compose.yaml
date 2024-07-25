@@ -13,8 +13,8 @@ services:
   selenium-hub:
     image: selenium/hub:4.10.0
     container_name: selenium-hub
-    ports:
-      - "4444:4444"
+#    ports:  Not required if you are running via jenkins, required only for UI
+#      - "4444:4444"
     #environment:
     #  - GRID_MAX_SESSION=16
     #  - GRID_BROWSER_TIMEOUT=0
